@@ -1,0 +1,138 @@
+/* Sass Document */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  webkit-box-sizing: border-box;
+  font-family: "Source Sans Pro", sans-serif; }
+
+body {
+  margin: 0;
+  padding: 0; }
+
+p {
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 17px;
+  line-height: 1.3; }
+  p:last-child {
+    margin-bottom: 0; }
+
+.not-found-page {
+  width: 100%;
+  height: 100vh;
+  position: relative; }
+  .not-found-page span.left {
+    width: 30%;
+    position: absolute;
+    height: 100%;
+    background-color: #db090d;
+    left: 0;
+    top: 0;
+    font-weight: 300;
+    color: #fff;
+    text-align: center; }
+  .not-found-page span i {
+    font-size: 150px;
+    margin-bottom: 14px;
+    margin-top: 50%; }
+  .not-found-page span h1 {
+    font-weight: 100;
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-bottom: 0; }
+  .not-found-page:after {
+    content: "";
+    width: 5%;
+    position: absolute;
+    height: 100%;
+    background-color: #750709;
+    left: 30%;
+    top: 0;
+    -webkit-box-shadow: 4px 0px 2px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 4px 0px 2px rgba(0, 0, 0, 0.4);
+    -o-box-shadow: 4px 0px 2px rgba(0, 0, 0, 0.4);
+    box-shadow: 4px 0px 2px rgba(0, 0, 0, 0.4); }
+
+.container {
+  width: 65%;
+  float: right;
+  position: relative;
+  height: 100%; }
+  .container .not-found {
+    width: 40%;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%); }
+    .container .not-found p.error-area {
+      font-size: 22px;
+      color: red;
+      line-height: 1;
+      text-transform: capitalize; }
+    .container .not-found p a {
+      color: #db090d;
+      display: block;
+      padding-top: 10px;
+      margin-top: 20px;
+      position: relative;
+      font-weight: 400;
+      text-transform: capitalize;
+      text-decoration: none; }
+      .container .not-found p a:before {
+        content: "";
+        position: absolute;
+        width: 90px;
+        height: 3px;
+        background: #db090d;
+        top: 0; }
+      .container .not-found p a:hover {
+        color: #750709; }
+      .container .not-found p a.error-area {
+        text-transform: uppercase;
+        font-weight: 700; }
+
+@media only screen and (min-width: 1024px) and (max-width: 1200px) {
+  .not-found-page span i {
+    font-size: 125px;
+    margin-bottom: 4px; }
+  .not-found-page span h1 {
+    font-size: 36px; } }
+@media screen and (max-width: 1023px) {
+  .not-found-page span.left {
+    width: 100%;
+    height: 30px; }
+    .not-found-page span.left i {
+      display: none; }
+    .not-found-page span.left h1 {
+      display: none; }
+  .not-found-page:after {
+    width: 100%;
+    height: 10px;
+    left: 0;
+    top: 20px;
+    -webkit-box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.4);
+    -o-box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.4); }
+
+  .container {
+    width: 60%;
+    margin: 0 auto;
+    float: none; }
+    .container .not-found {
+      width: 100%;
+      margin-top: 15px; } }
+@media screen and (max-width: 479px) and (max-height: 360px) {
+  p {
+    font-size: 14px;
+    margin-bottom: 16px; } }
+
+/*# sourceMappingURL=404.css.map */

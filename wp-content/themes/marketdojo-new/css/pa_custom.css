@@ -1,0 +1,104 @@
+body#sessions, body#passwords {
+  background: rgb(0, 0, 0);
+  color: rgb(255, 255, 255)
+}
+body#sessions a, body#passwords a {
+  color: rgb(247, 33, 38);
+  text-decoration: underline;
+}
+body#sessions a:hover, body#passwords a:hover {
+  color: rgb(2, 164, 226);
+}
+
+body#sessions h1, body#passwords h1 {
+  color: rgb(0, 0, 0);
+  margin: 0;
+}
+body#sessions h3, body#passwords h3 {
+  color: rgb(2, 164, 226);
+  margin: 0;
+}
+
+body#sessions #goto-mainsite, body#passwords #goto-mainsite {
+  font-size: 16px;
+  margin-top:10px;
+  color: rgb(2, 164, 226);
+  display: none;
+}
+
+body#sessions #form-container, body#passwords #form-container {
+  padding-left: 50px;
+  vertical-align: middle;
+  background-size: 2px 100%;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(2, 164, 226, 0)), color-stop(50%,rgba(2, 164, 226, 0.4)), color-stop(100%,rgba(2, 164, 226, 0)));
+  background-image: -webkit-linear-gradient(top, rgba(2, 164, 226, 0) 0%, rgba(2, 164, 226, .4) 50%, rgba(2, 164, 226, 0) 100%);
+  background-image: -moz-linear-gradient(top, rgba(2, 164, 226, 0) 0%, rgba(2, 164, 226, .4) 50%, rgba(2, 164, 226, 0) 100%);
+  background-image: -ms-linear-gradient(top, rgba(2, 164, 226, 0) 0%, rgba(2, 164, 226, .4) 50%, rgba(2, 164, 226, 0) 100%);
+  background-image: -o-linear-gradient(top, rgba(2, 164, 226, 0) 0%, rgba(2, 164, 226, .4) 50%, rgba(2, 164, 226, 0) 100%);
+  background-image: linear-gradient(to bottom, rgba(2, 164, 226, 0) 0%, rgba(2, 164, 226, .4) 50%, rgba(2, 164, 226, 0) 100%);
+}
+
+
+body#sessions .icon-white, body#passwords .icon-white {
+
+}
+
+.navbar-inner {
+  background-color: rgb(0, 0, 0);
+  background-image: -moz-linear-gradient(top, rgb(0, 0, 0), rgb(0, 0, 0));
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(rgb(0, 0, 0)), to(rgb(0, 0, 0)));
+  background-image: -webkit-linear-gradient(top, rgb(0, 0, 0), rgb(0, 0, 0));
+  background-image: -o-linear-gradient(top, rgb(0, 0, 0), rgb(0, 0, 0));
+  background-image: linear-gradient(to bottom, rgb(0, 0, 0), rgb(0, 0, 0));
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#000000', GradientType=0);
+  border: none;
+  -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
+  -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
+}
+
+.navbar .divider-vertical {
+  border-left: 0px solid rgb(0,0,0);
+  border-right: 0px solid #ccc;
+}
+
+.navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus {
+  background-color: rgb(59, 59, 59);
+  color: rgb(237,236,237);
+  text-shadow: 0 0px 0 rgb(107, 5, 7);
+}
+
+
+.navbar .nav li.dropdown.open>.dropdown-toggle, .navbar .nav li.dropdown.active>.dropdown-toggle, .navbar .nav li.dropdown.open.active>.dropdown-toggle {
+  background-color: rgb(59, 59, 59);
+  color: rgb(237,236,237);
+}
+
+.navbar-inner .container .nav .dropdown.open .dropdown-menu li a:hover {
+
+  color: #fff;
+  background-color: rgb(237,236,237);
+}
+
+.navbar .brand {
+  padding: 14px 22px 16px;
+}
+
+.navbar .nav {
+  padding-top: 10px;
+}
+
+.subnav-fixed {
+  top: 60px;
+}
+
+.page-header {
+  margin-top: 20px;
+}
+
+.body_pattern {
+  background-image:none;
+}

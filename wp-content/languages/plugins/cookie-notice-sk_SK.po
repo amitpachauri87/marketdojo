@@ -1,0 +1,334 @@
+# Translation of Plugins - Cookie Notice by dFactory - Stable (latest release) in Slovak
+# This file is distributed under the same license as the Plugins - Cookie Notice by dFactory - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-09-30 09:46:27+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: sk\n"
+"Project-Id-Version: Plugins - Cookie Notice by dFactory - Stable (latest release)\n"
+
+#: cookie-notice.php:433
+msgid "Enable to reload the page after cookies are accepted."
+msgstr "Povoliť stránku znovu načítať po prijatí cookies."
+
+#: cookie-notice.php:339
+msgid "Reloading"
+msgstr "Načítať znovu"
+
+#: cookie-notice.php:424
+msgid "To get the cookie notice status use <code>cn_cookies_accepted()</code> function."
+msgstr "Pre získanie statusu cookies informácie použite funkciu <code>cn_cookies_accepted()</code>."
+
+#: cookie-notice.php:400
+msgid "The text of the option to refuse the usage of the cookies."
+msgstr "Text na možnosti pre odmietnutie používania cookies."
+
+#: cookie-notice.php:338
+msgid "Script blocking"
+msgstr "Blokovanie scriptu"
+
+#: cookie-notice.php:301
+msgid "Check out our other <a href=\"%s\" target=\"_blank\">WordPress plugins</a>."
+msgstr "Pozrite si naše ďalšie <a href=\"%s\" target=\"_blank\">WordPress pluginy</a>."
+
+#: cookie-notice.php:300
+msgid "Blog about it & link to the <a href=\"%s\" target=\"_blank\">plugin page</a>."
+msgstr "Napíšte o nás a odkazujte na <a href=\"%s\" target=\"_blank\">stránku pluginu</a>."
+
+#: cookie-notice.php:299
+msgid "<a href=\"%s\" target=\"_blank\">Rate it 5</a> on WordPress.org"
+msgstr "<a href=\"%s\" target=\"_blank\">Ohodnoťte nás</a> na WordPress.org"
+
+#: cookie-notice.php:296
+msgid "If you are having problems with this plugin, please browse it's <a href=\"%s\" target=\"_blank\">Documentation</a> or talk about them in the <a href=\"%s\" target=\"_blank\">Support forum</a>"
+msgstr "Ak máte problémy s týmto pluginom, pozrite si <a href=\"%s\" target=\"_blank\">dokumentáciu</a> alebo napíšte na <a href=\"%s\" target=\"_blank\">fórum podpory</a>"
+
+#: cookie-notice.php:456
+msgid "Need a Cookie Policy? Generate one with <a href=\"%s\" target=\"_blank\" title=\"iubenda\">iubenda</a>"
+msgstr "Potrebujete text pre ochranu osobných údajov? Vygenerujte si ich s <a href=\"%s\" target=\"_blank\" title=\"iubenda\">iubenda</a>"
+
+#. Author URI of the plugin/theme
+msgid "http://www.dfactory.eu/"
+msgstr "http://www.dfactory.eu/"
+
+#. Author of the plugin/theme
+msgid "dFactory"
+msgstr "dFactory"
+
+#. Description of the plugin/theme
+msgid "Cookie Notice allows you to elegantly inform users that your site uses cookies and to comply with the EU cookie law regulations."
+msgstr "Cookie Notice vám umožní elegantne informovať užívateľa, že váš web používa cookies a je v súlade s predpismi cookie zákona EÚ."
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.dfactory.eu/plugins/cookie-notice/"
+msgstr "http://www.dfactory.eu/plugins/cookie-notice/"
+
+#: cookie-notice.php:890
+msgid "Are you sure you want to reset these settings to defaults?"
+msgstr "Ste si istí, že chcete obnoviť nastavenia na predvolené hodnoty?"
+
+#: cookie-notice.php:856
+msgid "Settings"
+msgstr "Nastavenia"
+
+#: cookie-notice.php:837
+msgid "Support"
+msgstr "Podpora"
+
+#: cookie-notice.php:736
+msgid "Settings restored to defaults."
+msgstr "Nastavenie obnovené na predvolené hodnoty."
+
+#: cookie-notice.php:619
+msgid "Choose buttons style."
+msgstr "Vyberte štýl tlačidla."
+
+#: cookie-notice.php:599
+msgid "Number of pixels user has to scroll to accept the usage of the cookies and make the notification disappear."
+msgstr "Počet pixelov ktoré používateľ musí prejsť pre akceptovanie cookies a skrytie upozornenia."
+
+#: cookie-notice.php:595
+msgid "Enable cookie notice acceptance when users scroll."
+msgstr "Povoľte automatický súhlas s cookies, keď sa používateľ posunie nižšie na stránke (scroll)."
+
+#: cookie-notice.php:585
+msgid "Cookie notice acceptance animation."
+msgstr "Zvoľte typ animácie cookies upozornenia po potvrdení."
+
+#: cookie-notice.php:566
+msgid "Select location for your cookie notice."
+msgstr "Zvoľte, kde na stránke má byť cookies upozornenie."
+
+#: cookie-notice.php:548
+msgid "Select where all the plugin scripts should be placed."
+msgstr "Zvoľte, kde má byť kód modulu umiestnený."
+
+#: cookie-notice.php:534
+msgid "The ammount of time that cookie should be stored for."
+msgstr "Ako dlho majú byť cookies skladované."
+
+#: cookie-notice.php:514
+msgid "Select the link target for more info page."
+msgstr "Zvoľte odkaz na stránku pre Viac informácií."
+
+#: cookie-notice.php:494
+msgid "Enter the full URL starting with http://"
+msgstr "Zadajte celú adresu začínajúcu s http://"
+
+#: cookie-notice.php:490
+msgid "Select from one of your site's pages"
+msgstr "Zvoľte jednu zo stránok vášho webu."
+
+#: cookie-notice.php:479
+msgid "-- select page --"
+msgstr "-- zvoľte stránku --"
+
+#: cookie-notice.php:476
+msgid "Select where to redirect user for more information about cookies."
+msgstr "Zvoľte kam odkázať používateľa pre viac informácií o cookies."
+
+#: cookie-notice.php:462
+msgid "The text of the more info button."
+msgstr "Text tlačidla pre Čítať viac."
+
+#: cookie-notice.php:455
+msgid "Enable Read more link."
+msgstr "Aktivujte odkaz Čítať viac."
+
+#: cookie-notice.php:424
+msgid "Enter non functional cookies Javascript code here (for e.g. Google Analitycs) to be used after cookies are accepted."
+msgstr "Vložte sem nefunkcionálny cookies Javascript kód (napríklad Google Analytics). Tento kód bude použitý po akceptovaní cookies."
+
+#: cookie-notice.php:395
+msgid "Give to the user the possibility to refuse third party non functional cookies."
+msgstr "Dajte používateľom možnosť odmietnuť cookies tretích strán."
+
+#: cookie-notice.php:385
+msgid "The text of the option to accept the usage of the cookies and make the notification disappear."
+msgstr "Text tlačidla pre akceptovanie používania cookies a skrytie notifikačnej lišty."
+
+#: cookie-notice.php:374
+msgid "Enter the cookie notice message."
+msgstr "Vložte správu o používaní cookies."
+
+#: cookie-notice.php:364
+msgid "Enable if you want all plugin data to be deleted on deactivation."
+msgstr "Povoľte, ak chcete aby všetky dáta modulu boli odstránené pri deaktivácií."
+
+#: cookie-notice.php:350
+msgid "Colors"
+msgstr "Farby"
+
+#: cookie-notice.php:349
+msgid "Button style"
+msgstr "Štýl tlačidla"
+
+#: cookie-notice.php:348
+msgid "Animation"
+msgstr "Animácia"
+
+#: cookie-notice.php:347
+msgid "Position"
+msgstr "Pozícia"
+
+#: cookie-notice.php:346
+msgid "Design"
+msgstr "Dizajn"
+
+#: cookie-notice.php:343
+msgid "Deactivation"
+msgstr "Deaktivácia"
+
+#: cookie-notice.php:342
+msgid "Script placement"
+msgstr "Umiestnenie skriptu"
+
+#: cookie-notice.php:341
+msgid "Cookie expiry"
+msgstr "Expirácia cookies"
+
+#: cookie-notice.php:340
+msgid "On scroll"
+msgstr "Pri skrolovaní"
+
+#: cookie-notice.php:337
+msgid "Refuse button"
+msgstr "Tlačidlo Odmietnuť"
+
+#: cookie-notice.php:336
+msgid "Link target"
+msgstr "Cieľ odkazu"
+
+#: cookie-notice.php:335
+msgid "More info link"
+msgstr "Odkaz pre Viac informácií"
+
+#: cookie-notice.php:334
+msgid "Button text"
+msgstr "Text tlačidla"
+
+#: cookie-notice.php:333
+msgid "Message"
+msgstr "Správa"
+
+#: cookie-notice.php:332
+msgid "Configuration"
+msgstr "Nastavenie"
+
+#: cookie-notice.php:316
+msgid "Reset to defaults"
+msgstr "Obnoviť predvolené nastavenia"
+
+#: cookie-notice.php:298
+msgid "Do you like this plugin?"
+msgstr "Páči sa vám tento modul?"
+
+#: cookie-notice.php:295
+msgid "Need support?"
+msgstr "Potrebujete pomoc?"
+
+#. #-#-#-#-#  cookie-notice-code.pot (Cookie Notice 1.2.42)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: cookie-notice.php:278 cookie-notice.php:290 cookie-notice.php:293
+msgid "Cookie Notice"
+msgstr "Cookie Notice"
+
+#: cookie-notice.php:180
+msgid "Read more"
+msgstr "Čítať viac"
+
+#: cookie-notice.php:179
+msgid "No"
+msgstr "Nie"
+
+#: cookie-notice.php:178
+msgid "Ok"
+msgstr "Ok"
+
+#: cookie-notice.php:177
+msgid "We use cookies to ensure that we give you the best experience on our website. If you continue to use this site we will assume that you are happy with it."
+msgstr "Používame cookies aby sme pre vás zabezpečili ten najlepší zážitok z našich webových stránok. Ak budete pokračovať v používaní tejto stránky budeme predpokladať, že ste s ňou spokojní."
+
+#: cookie-notice.php:171
+msgid "Footer"
+msgstr "Pätička"
+
+#: cookie-notice.php:170
+msgid "Header"
+msgstr "Hlavička"
+
+#: cookie-notice.php:166
+msgid "Slide"
+msgstr "Slide"
+
+#: cookie-notice.php:165
+msgid "Fade"
+msgstr "Vystúpiť"
+
+#: cookie-notice.php:160
+msgid "infinity"
+msgstr "navždy"
+
+#: cookie-notice.php:159
+msgid "1 year"
+msgstr "1 rok"
+
+#: cookie-notice.php:158
+msgid "6 months"
+msgstr "6 mesiacov"
+
+#: cookie-notice.php:157
+msgid "3 months"
+msgstr "3 mesiace"
+
+#: cookie-notice.php:156
+msgid "1 month"
+msgstr "1 mesiac"
+
+#: cookie-notice.php:155
+msgid "1 week"
+msgstr "1 týždeň"
+
+#: cookie-notice.php:154
+msgid "1 day"
+msgstr "1 deň"
+
+#: cookie-notice.php:150
+msgid "Bar color"
+msgstr "Farba lišty"
+
+#: cookie-notice.php:149
+msgid "Text color"
+msgstr "Farba textu"
+
+#: cookie-notice.php:140
+msgid "Page link"
+msgstr "Odkaz na stránku"
+
+#: cookie-notice.php:139
+msgid "Custom link"
+msgstr "Vlastný odkaz"
+
+#: cookie-notice.php:135
+msgid "Bootstrap"
+msgstr "Bootstrap"
+
+#: cookie-notice.php:134
+msgid "WordPress"
+msgstr "WordPress"
+
+#: cookie-notice.php:133 cookie-notice.php:164
+msgid "None"
+msgstr "Žiadna"
+
+#: cookie-notice.php:129
+msgid "Bottom"
+msgstr "Dole"
+
+#: cookie-notice.php:128
+msgid "Top"
+msgstr "Hore"

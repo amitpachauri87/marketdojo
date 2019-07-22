@@ -1,0 +1,61 @@
+// login scripts
+$(document).ready(function() {
+    "use strict";
+    var site_url_old = 'https://secure.marketdojo.com';
+    var check;
+    check = checkAPIIfUserLogged();
+
+    $.when(check).done(function(response, status, a3) {
+        if (response != null && typeof response != 'undefined' &&
+            typeof response.id == 'number' &&
+            response.login != null && response.name != null && response.email != null) {
+            changeLoginBoxDiv(response.name);
+        }
+    });
+});
+
+function setCookie(key, value) {
+    var expires = new Date();
+    expires.setTime(expires.getTime() + (1 * 24 * 60 * 60 * 1000));
+    document.cookie = key + '=' + value + ';expires=' + expires.toUTCString();
+}
+
+function checkAPIIfUserLogged() {
+    var site_url_old = 'https://secure.marketdojo.com';
+    var url;
+    //url = site_url_old + '/users/home.json';
+    url = 'https://secure.marketdojo.com/users/home.json';
+    var r = $.ajax({
+        url: url,
+        type: 'GET',
+        crossDomain: true,
+        xhrFields: {
+            withCredentials: true
+        },
+        success: function() {
+            var obj = jQuery.parseJSON(r.responseText);
+            setCookie("username", obj.name);
+            setCookie("usermail", obj.email);
+            window.username = obj.name;
+        },
+        error: function() {
+            console.log("error, cannot connect to API");
+        },
+        dataType: "json"
+    });
+    return r;
+}
+
+
+function changeLoginBoxDiv(name) {
+    var site_url_old = 'https://secure.marketdojo.com';
+    // Top nav
+    $('.signup').find('a').attr('href', site_url_old + '/users/home').attr('target', '_blank');
+    $('.signup').find('a').html('Dashboard');
+    if (typeof name != 'undefined' && name != null) {
+        $('.login').find('a').attr('href', site_url_old + '/users/home').attr('target', '_blank');
+        $('.login').find('a').html(name);
+    }
+    $('.login_button').hide();
+    $('.download_button_subscription').show();
+}

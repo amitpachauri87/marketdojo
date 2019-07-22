@@ -1,0 +1,184 @@
+# Translation of Plugins - WP Mail SMTP - Stable (latest release) in Slovak
+# This file is distributed under the same license as the Plugins - WP Mail SMTP - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-04-30 12:46:15+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: sk\n"
+"Project-Id-Version: Plugins - WP Mail SMTP - Stable (latest release)\n"
+
+#. Author URI of the plugin/theme
+msgid "http://www.callum-macdonald.com/"
+msgstr "http://www.callum-macdonald.com/"
+
+#. Author of the plugin/theme
+msgid "Callum Macdonald"
+msgstr "Callum Macdonald"
+
+#. Description of the plugin/theme
+msgid "Reconfigures the wp_mail() function to use SMTP instead of mail() and creates an options page to manage the settings."
+msgstr "Upravuje konfiguráciu funkcie wp_mail() tak, aby používala SMTP namiesto mail() a vytvára stránku pre úpravu nastavení."
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.callum-macdonald.com/code/wp-mail-smtp/"
+msgstr "http://www.callum-macdonald.com/code/wp-mail-smtp/"
+
+#. Plugin Name of the plugin/theme
+msgid "WP-Mail-SMTP"
+msgstr "WP-Mail-SMTP"
+
+#: wp_mail_smtp.php:413
+msgid "Settings"
+msgstr "Nastavenia"
+
+#: wp_mail_smtp.php:343
+msgid "Email"
+msgstr "E-mail"
+
+#: wp_mail_smtp.php:323
+msgid "Type an email address here and then click Send Test to generate a test email."
+msgstr "Zadajte emailovú adresu a kliknite na tlačítko Odoslať test na vytvorenie testovacieho emailu."
+
+#: wp_mail_smtp.php:321
+msgid "To:"
+msgstr "Komu:"
+
+#: wp_mail_smtp.php:315
+msgid "Send a Test Email"
+msgstr "Odoslať testovací email"
+
+#: wp_mail_smtp.php:309
+msgid "Save Changes"
+msgstr "Uložiť nastavenia"
+
+#: wp_mail_smtp.php:304
+msgid "Password"
+msgstr "Heslo"
+
+#: wp_mail_smtp.php:300
+msgid "Username"
+msgstr "Používateľské meno"
+
+#: wp_mail_smtp.php:296
+msgid "If this is set to no, the values below are ignored."
+msgstr "Ak je táto hodnota nastavená na nie, hodnoty nižšie budú ignorované."
+
+#: wp_mail_smtp.php:295
+msgid "Yes: Use SMTP authentication."
+msgstr "Áno: Použiť SMTP autentifikáciu."
+
+#: wp_mail_smtp.php:293
+msgid "No: Do not use SMTP authentication."
+msgstr "Nie: Nepoužívať SMTP autentifikáciu."
+
+#: wp_mail_smtp.php:290
+msgid "Authentication"
+msgstr "Autentifikácia"
+
+#: wp_mail_smtp.php:286
+msgid "Use TLS encryption. This is not the same as STARTTLS. For most servers SSL is the recommended option."
+msgstr "Použiť šifrovanie TLS (nie je rovnaké ako STARTTLS). Pre väčšinu serverov je odporúčaná voľba SSL."
+
+#: wp_mail_smtp.php:284
+msgid "Use SSL encryption."
+msgstr "Použiť SSL šifrovanie."
+
+#: wp_mail_smtp.php:282
+msgid "No encryption."
+msgstr "Bez šifrovania."
+
+#: wp_mail_smtp.php:279 wp_mail_smtp.php:280
+msgid "Encryption"
+msgstr "Šifrovanie"
+
+#: wp_mail_smtp.php:275
+msgid "SMTP Port"
+msgstr "SMTP Port"
+
+#: wp_mail_smtp.php:271
+msgid "SMTP Host"
+msgstr "Poskytovateľ SMTP"
+
+#: wp_mail_smtp.php:267
+msgid "These options only apply if you have chosen to send mail by SMTP above."
+msgstr "Tieto nastavenia sa použijú iba v prípade, ak je vybraná voľba odosielať email cez SMTP vyššie."
+
+#: wp_mail_smtp.php:266
+msgid "SMTP Options"
+msgstr "SMTP Nastavenia"
+
+#: wp_mail_smtp.php:261
+msgid "Set the return-path to match the From Email"
+msgstr "Nastaviť návratovú cestu na rovnakú hodnotu ako e-mail odosielateľa."
+
+#: wp_mail_smtp.php:258 wp_mail_smtp.php:259
+msgid "Return Path"
+msgstr "Návratová cesta"
+
+#: wp_mail_smtp.php:250
+msgid "Use the PHP mail() function to send emails."
+msgstr "Použiť PHP mail() funkciu na odosielanie e-mailov."
+
+#: wp_mail_smtp.php:248
+msgid "Send all WordPress emails via SMTP."
+msgstr "Odosielať všetky WordPress e-maily cez SMTP."
+
+#: wp_mail_smtp.php:245 wp_mail_smtp.php:246
+msgid "Mailer"
+msgstr "Mailer"
+
+#: wp_mail_smtp.php:238
+msgid "You can specify the name that emails should be sent from. If you leave this blank, the emails will be sent from WordPress."
+msgstr "Tu môžete vložiť meno odosielateľa, ktoré sa použije pri odosielaní e-mailov. Ak toto pole nevyplníte, e-maily budú odosielané od WordPress."
+
+#: wp_mail_smtp.php:236
+msgid "From Name"
+msgstr "Meno odosielateľa"
+
+#: wp_mail_smtp.php:233
+msgid "<strong>Please Note:</strong> You appear to be using a version of WordPress prior to 2.3. Please ignore the From Name field and instead enter Name&lt;email@domain.com&gt; in this field."
+msgstr "<strong>Poznámka:</strong> používate WordPress vo verzii nižšej ako 2.3. Ignorujte pole Meno odosielateľa a namiesto toho vložte Meno&lt;email@domain.com&gt; do tohto poľa."
+
+#: wp_mail_smtp.php:233
+msgid "You can specify the email address that emails should be sent from. If you leave this blank, the default email will be used."
+msgstr "Môžete určiť e-mailovú adresu, z ktorej sa budú e-maily odosielať. Ak toto pole nevyplníte, použije sa prednastavená e-mailová adresa."
+
+#: wp_mail_smtp.php:231
+msgid "From Email"
+msgstr "Email odosielateľa"
+
+#: wp_mail_smtp.php:225 wp_mail_smtp.php:343
+msgid "Advanced Email Options"
+msgstr "Pokročilé nastavenia emailu"
+
+#: wp_mail_smtp.php:213
+msgid "The SMTP debugging output is shown below:"
+msgstr "SMTP debug je zobrazený nižšie:"
+
+#: wp_mail_smtp.php:211
+msgid "The full debugging output is shown below:"
+msgstr "Celý debug výstup je zobrazený nižšie:"
+
+#: wp_mail_smtp.php:209
+msgid "The result was:"
+msgstr "Výsledok bol:"
+
+#: wp_mail_smtp.php:208
+msgid "Test Message Sent"
+msgstr "Testovací email odoslaný"
+
+#: wp_mail_smtp.php:188
+msgid "This is a test email generated by the WP Mail SMTP WordPress plugin."
+msgstr "Toto je testovací email vygenerovaný WordPress pluginom WP Mail SMTP."
+
+#: wp_mail_smtp.php:187
+msgid "Test mail to "
+msgstr "Príjemca testovacieho emailu"
+
+#: wp_mail_smtp.php:181 wp_mail_smtp.php:326
+msgid "Send Test"
+msgstr "Odoslať test"
